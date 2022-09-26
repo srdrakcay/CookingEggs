@@ -62,6 +62,16 @@
                         app:layout_constraintBottom_toTopOf="@+id/desc4"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="177dp"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/splash"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
@@ -79,22 +89,32 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="177dp"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/splash"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         android:id="@+id/eggName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="Title"
+                        android:text="Boiled egg"
                         app:layout_constraintBottom_toTopOf="@+id/desc"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <TextView
                         android:id="@+id/desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="234dp"
+                        android:layout_height="48dp"
                         android:layout_marginBottom="16dp"
-                        android:text="Description"
+                        android:text="It is a cooking method in which the white is fully cooked and the yolk is fluid."
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -115,12 +135,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="177dp"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/splash"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         android:id="@+id/desc3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="232dp"
+                        android:layout_height="35dp"
                         android:layout_marginBottom="16dp"
-                        android:text="Description"
+                        android:text="The white is well cooked, the yolk is not runny."
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -130,7 +160,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="Title"
+                        android:text="Apricot Egg"
                         app:layout_constraintBottom_toTopOf="@+id/desc3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -150,12 +180,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="177dp"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/splash"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         android:id="@+id/desc2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="234dp"
+                        android:layout_height="51dp"
                         android:layout_marginBottom="16dp"
-                        android:text="Description"
+                        android:text="In this method, both the white and the yolk of the egg are solid and well cooked."
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -165,7 +205,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="Title"
+                        android:text="Hard Egg"
                         app:layout_constraintBottom_toTopOf="@+id/desc2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -186,12 +226,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="177dp"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/splash"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
                     <TextView
                         android:id="@+id/desc5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="Description"
+                        android:text="Preferred to obtain hard-boiled eggs"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -201,7 +251,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="Title"
+                        android:text="Overcooked Egg"
                         app:layout_constraintBottom_toTopOf="@+id/desc5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
